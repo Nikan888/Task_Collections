@@ -10,7 +10,7 @@ namespace Task_Collections
     {
         static void Main(string[] args)
         {
-            Crew crew = new Crew
+            Crew<Worker> crew = new Crew<Worker>
             {
                 new Worker { FirstName = "Groznyi", Age = 25, WorkPosition = "Mechanic" },
                 new Worker { FirstName = "Korablov", Age = 34, WorkPosition = "Technician-technologist" },
